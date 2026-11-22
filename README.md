@@ -7,10 +7,10 @@ Linux-only, X11-only.
 
 Modes:
   1. Mirror primary screen (no W H given):
-     $0 [-d] [-f MAX_FPS] [-q QUALITY] <DONGLE_IP>
+     ./ezcast.sh [-d] [-f MAX_FPS] [-q QUALITY] <DONGLE_IP>
 
   2. Create virtual screen WxH to the right of primary and mirror it:
-     $0 [-d] [-f MAX_FPS] [-q QUALITY] [-o VIRTUAL_OUTPUT] <DONGLE_IP> <W> <H>
+     ./ezcast.sh [-d] [-f MAX_FPS] [-q QUALITY] [-o VIRTUAL_OUTPUT] <DONGLE_IP> <W> <H>
 
 Options:
   -d                 Send only changed frames
